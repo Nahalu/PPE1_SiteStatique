@@ -1,0 +1,530 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+footer{
+	background: #333;
+	color: #fff;
+	padding: .1em 3em;
+	text-align: center;
+}
+
+
+a {
+	color:#939393;
+	text-decoration:none
+}
+
+a:hover, a:focus {
+	color:#fff
+}
+
+/*== Réduction du <span>+<span> ==*/
+.size1 {
+	width:30%;
+}
+/*== End Réduction du <span>+<span> ==*/
+
+
+/*== Sections ==*/
+
+/*== H nav ==*/
+/*== Typo H nav ==*/
+.horiznav {
+	font-family: "Akkurat";
+	z-index:1;
+}
+/*== End Typo H nav ==*/
+
+#op-horizontalnav {
+  background:#171717;
+  position:fixed;
+  top:0; right:0;
+  left:0 ;
+
+   }
+#op-horizontalnav .op-sectionlist {
+	width:100%; 
+	max-width:1280px; 
+	margin:auto;padding:0; 
+	text-align:center; 
+	display:table;
+}
+#op-horizontalnav .op-v-item {
+	list-style:none; display:table-cell;
+	 font-size:16px
+	}
+#op-horizontalnav .op-v-item .op-v-link {
+	color:#fff;
+	padding:16px 8px;
+	display:block;
+	text-decoration:none
+}
+#op-horizontalnav .op-v-item .op-v-link:hover, #op-horizontalnav .op-v-link.active {
+	background-color:#fff;
+	color:#171717
+}
+/*== End H nav ==*/
+
+
+
+.style1 {
+	text-align:center;
+	color:#343434; 
+	background:#FEFEFE; 
+	border-top:1px solid #343434;
+}
+
+
+
+
+/*== Orientation des textes vertical ==*/
+.orient {
+  font-size: 6vw;
+  color:white;
+  clear:both;
+  width: 30%;
+  height: 15.5vw;
+  margin-left:1vw;
+  -moz-transform: rotate(270deg);  /* FF3.5+ */
+  -o-transform: rotate(270deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+
+}
+
+
+.orient1 {
+  font-size: 6vw;
+  color:black;
+  clear:both;
+  float:right;
+  width: 30%;
+  height: 15.5vw;
+  margin-right:1vw;
+  margin-top: 2vw;
+  -moz-transform: rotate(150deg);  /* FF3.5+ */
+  -o-transform: rotate(150deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+}
+
+
+.orient1bis {
+  font-size: 6vw;
+  color:black;
+  clear:both;
+  float:right;
+  width: 30%;
+  height: 15.5vw;
+  margin-right:1vw;
+  margin-top: 1vw;
+  -moz-transform: rotate(150deg);  /* FF3.5+ */
+  -o-transform: rotate(150deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+
+}
+
+.orient2 {
+  font-size: 6vw;
+  color:black;
+  float:left;
+  width: 30%;
+  height: 0vw;
+  margin-left:-29.5vw;
+  margin-top:42vw;
+  -moz-transform: rotate(270deg);  /* FF3.5+ */
+  -o-transform: rotate(270deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+}
+/*== End Orientation du texte vertical ==*/
+
+
+
+/*== Element de la HomePage ==*/
+.title {
+	color: #343434;
+	font-size: 7.5vw;
+	margin:auto;
+	margin-top:13vw;
+	border:0.47vw solid #343434;
+	text-align: center ;
+	width: 58%;
+	height:11vw;
+	padding-top:2.6vw;
+	font-family: "Akkurat" bold;
+	min-width: 200px;
+    max-width: 800px;
+
+}
+
+/* Animation de Fondu */
+.content {
+
+    opacity:0;
+    -moz-animation: anim 3s linear forwards 0.5s;
+    -webkit-animation: anim 3s linear forwards 0.5s;
+    -o-animation: anim 3s linear forwards 0.5s;
+    -ms-animation: anim 3s linear forwards 0.5s;
+    animation: anim 3s linear forwards 0.5s;
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+/* End Animation */
+
+
+
+
+
+
+.title1 {
+	color: black;
+	font-size: 0.94vw;
+	margin: auto;
+	border:0.47vw solid #343434;
+	text-align: center ;
+	width: 58%;
+	height:2vw;
+	font-family: "Akkurat";
+	min-width: 200px;
+    max-width: 800px;
+    padding-top: 0.8vw;
+    top:-0.47vw;
+    position: relative;
+}
+
+#searchbar {
+	border:3px solid #343434;
+	width:45%;
+	height:4vw;
+	margin:auto;
+	margin-top:7vw;
+
+	position:relative;
+	font-size:1.5vw;
+}
+
+.champ {
+	width:82%;
+	text-align:center;
+	height:3vw;
+	margin-top:0.23vw;
+	font-family:"Akkurat";
+	color:grey;
+}
+
+.formulaire {
+	display:inline-block;
+}
+
+.formulaire .champ  {
+	width:2vw;
+	height:2vw;
+}
+
+.formulaire .bouton { 
+	font-family: "Akkurat";
+	background-color:white;
+	margin-top: 0.23vw;
+	width: 6vw;
+	height: 3.5vw;
+	padding: 0; 
+}
+
+.bar {
+	max-width: 6%;
+	height: auto;
+	margin:auto;
+	margin-top:7vw;
+}
+
+.bar1, .bar2 {
+	max-width: 6%;
+	height: auto;
+	margin-left : 70px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.bar3 {
+	max-width: 10%;
+	height: auto;
+	margin: 6.5vw;
+	margin-top:8vw;
+	position:relative;
+	display:inline-block; 
+	float:left;
+	clear:both;
+}
+/*== End Element de la HomePage ==*/
+
+
+/*== Style de toutes les icônes  ==*/
+.bar4 {
+	max-width: 10%;
+	height: auto;
+	margin: 6.5vw;
+	margin-top:-2vw;
+	float:right;
+	clear:both;
+}
+
+.bar4bis {
+	max-width: 10%;
+	height: auto;
+	margin: 6.5vw;
+	margin-top:7vw;
+	float:right;
+	clear:both;
+}
+
+.bar5{
+
+	height: auto;
+	width: 88%;
+	margin-left:1vw;
+}
+
+.bar6{
+	height: auto;
+	width: 88%;
+	margin-top:2vw;
+	margin-left:1.5vw;
+
+}
+
+.bar7{
+	height: auto;
+	width: 88%;
+	margin-left:1vw;
+	margin-top: -40vw;
+}
+
+.bar8 {
+	max-width: 10%;
+	height: auto;
+	margin: 6.5vw;
+	position:relative;
+	display:inline-block; 
+	float:left;
+	clear:both;
+}
+
+
+.bar9 {
+	max-width: 8%;
+	height: auto;
+	margin:left;
+	margin-left:-16vw;
+}
+
+.bar10 {
+	max-width: 8%;
+	height: auto;
+	margin-left : 19vw;
+	width: 100%;
+
+}
+
+.bar9, .bar10{
+
+	margin-top:10vw;
+}
+/*== End Style de toutes les icônes  ==*/
+
+
+/*== Element ABOUT ==*/
+.article1 {
+	width:53%;
+	height :50px;
+	margin: -36% 50px 500px 28%;
+	margin-left:26.5vw;
+	text-align:justify;
+	color:white;
+	font-size:1.3vw;
+	margin-top:-30vw;
+}
+
+.video {
+	width:100%;
+	height :30vw;
+	margin: 10% 25px 500px 0%;
+	margin-top:3vw;
+}
+/*== End Element ABOUT ==*/
+
+/*== Element CONCEPT ==*/
+.container1 {
+
+	height :auto;
+	max-width: 15vw ;
+	margin-left: 17vw;
+	color:black;
+	font-size: 1.1vw;
+	text-align: justify-all;
+	margin-top:8vw;
+	width:11%;
+
+}
+
+.container2 {
+
+	height :auto;
+	max-width: 15vw ;
+	color:black;
+	font-size: 1.1vw;
+	text-align: justify-all;
+	margin-left: 39.5vw;
+	margin-top:-15vw;
+	width:11%;
+
+}
+
+.container3 {
+
+	height :auto;
+	max-width: 15vw ;
+	color:black;
+	font-size: 1.1vw;
+	text-align: justify-all;
+	margin-left:61vw;
+	margin-top:-20vw;
+	width:11%;
+}
+/*== End Element CONCEPT ==*/
+
+/*== Element PARTICIPATE ==*/
+
+
+
+body {
+    padding-top: 50px;
+}
+	
+.form_col {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 3px 0px;
+    width: 200px;
+    min-height: 1px;
+    text-align: right;
+}
+	
+input {
+	padding: 2px;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	outline: none; /* Retire les bordures appliquées par certains navigateurs (Chrome notamment) lors du focus des éléments <input> */
+}
+	
+input:focus {
+	border-color: rgba(82, 168, 236, 0.75);
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+}
+	
+.correct {
+	border-color: rgba(68, 191, 68, 0.75);
+}
+	
+.correct:focus {
+	border-color: rgba(68, 191, 68, 0.75);
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+}
+	
+.incorrect {
+	border-color: rgba(191, 68, 68, 0.75);
+}
+	
+.incorrect:focus {
+	border-color: rgba(191, 68, 68, 0.75);
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+}
+	
+.tooltip {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 2px 4px;
+	border: 1px solid #555;
+	background-color: #CCC;
+	border-radius: 4px;
+}
+
+
+.champ2 {
+
+	border:0.4vw solid black;
+	width:21.6vw;
+	text-align:center;
+	height:3.1vw;
+	margin-top:0.23vw;
+	font-family:"Akkurat";
+	color:grey;
+	margin-left:-0.3vw;
+}
+
+
+.aa {
+
+border:0.4vw solid black;
+width:22vw;
+
+margin-left:28vw;
+	height: auto;
+
+
+	margin-top:2vw;
+
+}
+
+.ab {
+border:0.4vw solid black;
+width:22vw;
+max-height:30vw;
+
+margin:left;
+margin-left:55vw;
+margin-top:-23.7vw;
+
+}
+
+
+
+.border1 {
+
+border:2vw;
+}
+
+.stylechamp {
+font-size:1.5vw;
+margin-left:0vw;
+text-align: left;
+}
+
+.positionmap {
+
+	margin: -36% 50px 500px 28%;
+	margin-left:20vw;
+	margin-top:-43vw;
+	border:0.5vw solid black;
+	overflow:hidden;
+	height:auto;
+	width:50%;
+	margin-bottom:19vw;
+}
